@@ -4,7 +4,9 @@ Today's assignment is to build a simple weather dashboard that tells today's wea
 
 ![Design](https://github.com/Technigo/assignment-weather/blob/master/weather_app.png)
 
-## How to get started with the weather API.
+## How to complete this assignment
+
+### Get started with the weather API.
 
 [Sign up for a free Open Weather Map account](https://home.openweathermap.org/users/sign_up). Once signed in, go to the "Api Keys" tab and copy the API Key. You can use the API Key in the APPID parameter when making calls to the openweathermap API.
 
@@ -59,6 +61,12 @@ The response should look something like this (this has been run through jsonlint
 ```
 
 Use the `fetch()` function in JavaScript to load the weather into your page.
+
+### Present the data on your page
+
+Your task is to present the data, the city, the temperature in celsius and what type of weather it is. 
+
+Style your page how you want to with CSS OR add more data, see suggestions in the extra assignments.  
 
 ## How to complete this assignment
 
