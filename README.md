@@ -4,7 +4,6 @@ Today's assignment is to build a simple weather dashboard that tells today's wea
 
 ![Design](https://github.com/Technigo/assignment-1-yearbook/blob/master/design.png)
 
-
 ## How to get started with the weather API.
 
 [Sign up for a free Open Weather Map account](https://home.openweathermap.org/users/sign_up). Once signed in, go to the "Api Keys" tab and copy the API Key. You can use the API Key in the APPID parameter when making calls to the openweathermap API.
@@ -66,11 +65,6 @@ Use the `fetch()` function in JavaScript to load the weather into your page.
 The `starter-code` folder containers a boilerplate html file with the Technigo logo & color scheme to get you started. Feel free to change the theme if you'd like!
 
 To complete this assignment, you need to fork this repository, make changes to your copy, and then submit a pull request on GitHub (from your repository into the technigo one) for review. [Read the guide on GitHub](https://guides.github.com/activities/forking/) for more info on how to do this.
-
-# Sprint 1: Yearbook Assignment
-
-Today's assignment is to create a yearbook-style image gallery of the class. It should include a square photo of each student, and should follow this design:
-
 
 ## How to complete this assignment
 
