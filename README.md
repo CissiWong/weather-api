@@ -1,4 +1,4 @@
-# Sprint 2 – Build a Weather Dashboard :mostly_sunny:
+# Sprint 2 – Build a Weather Dashboard :sunny:
 
 Today's assignment is to build a simple weather dashboard that tells today's weather and temperature using an weather API. We will start by keeping it simple and then there's great possibilities to build on with stretch goals. The weather dashboard should, at the minimum, contain the following: 
 
