@@ -62,15 +62,9 @@ Use the `fetch()` function in JavaScript to load the weather into your page.
 
 ## How to complete this assignment
 
-The `starter-code` folder containers a boilerplate html file with the Technigo logo & color scheme to get you started. Feel free to change the theme if you'd like!
+The `starter-code` folder containers a boilerplate html file with a linked js file. 
 
-To complete this assignment, you need to fork this repository, make changes to your copy, and then submit a pull request on GitHub (from your repository into the technigo one) for review. [Read the guide on GitHub](https://guides.github.com/activities/forking/) for more info on how to do this.
-
-## How to complete this assignment
-
-The `starter-code` folder containers a boilerplate html file with the Technigo logo & color scheme to get you started. Feel free to change the theme if you'd like!
-
-To complete this assignment, you need to fork this repository, make changes to your copy, and then submit a pull request on GitHub (from your repository into the technigo one) for review. [Read the guide on GitHub](https://guides.github.com/activities/forking/) for more info on how to do this.
+To complete this assignment, you need to fork this repository, add your code, and then submit a pull request on GitHub (from your repository into the technigo one) for review. [Read the guide on GitHub](https://guides.github.com/activities/forking/) for more info on how to do this.
 
 ### :books: Reading List
 
@@ -82,7 +76,7 @@ To complete this assignment, you need to fork this repository, make changes to y
 
 ### :boom: Success!
 
-After completing this assignment you should be confortable in using simple API's and know what an API is and what to use it for. You should also know how to parse data and use json and how to output the data into a website. 
+After completing this assignment you should be confortable in using simple API's and know what an API is and what to use it for. You should also know how to use Javascript objects in json and how to output the data into a website. 
 
 ---
 
