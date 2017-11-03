@@ -2,7 +2,7 @@
 
 Today's assignment is to build a simple weather dashboard that tells today's weather and temperature using an weather API. We will start by keeping it simple and then there's great possibilities to build on with stretch goals. The weather dashboard should, at the minimum, contain the following: 
 
-![Design](https://github.com/Technigo/assignment-1-yearbook/blob/master/design.png)
+![Design](https://github.com/Technigo/assignment-weather/blob/master/weather_app.png)
 
 ## How to get started with the weather API.
 
