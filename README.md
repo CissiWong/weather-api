@@ -1,6 +1,6 @@
 # Sprint 2 – Build a Weather Dashboard :sunny:
 
-Today's assignment is to build a simple weather dashboard that tells today's weather and temperature using an weather API. We will start by keeping it simple and then there's great possibilities to build on with stretch goals. The weather dashboard should, at the minimum, contain the following: 
+Today's assignment is to build a simple weather dashboard that tells today's weather and temperature using a weather API. We will start by keeping it simple and then there's great possibilities to build on with stretch goals. The page, before stretch goals should look something along the lines of this:
 
 ![Design](https://github.com/Technigo/assignment-weather/blob/master/weather_app.png)
 
@@ -60,19 +60,19 @@ The response should look something like this (this has been run through jsonlint
 }
 ```
 
-Use the `fetch()` function in JavaScript to load the weather into your page.
+As you can see, there's a bunch of useful information in there - including current temperature, windspeed, humidity, etc.
+
+You will need to use the `fetch()` function in JavaScript to load the weather data into your page, and then select the values you want to inject into the DOM from the JSON which comes from the API.
 
 ### Present the data on your page
 
-Your task is to present the data, the city, the temperature in celsius and what type of weather it is. 
+Your task is to present the data: the city name, the temperature, and what type of weather it is (the "description" in the JSON).
 
-Style your page how you want to with CSS OR add more data, see suggestions in the extra assignments.  
+Once you get the data onto your page, style your page however you'd like to with CSS, OR add more data to make it even more useful! See suggestions in the stretch goals section.
 
 ## How to complete this assignment
 
-The `starter-code` folder containers a boilerplate html file with a linked js file. 
-
-To complete this assignment, you need to fork this repository, add your code, and then submit a pull request on GitHub (from your repository into the technigo one) for review. [Read the guide on GitHub](https://guides.github.com/activities/forking/) for more info on how to do this.
+To complete this assignment, you need to fork this repository, add your code in the "code" folder, and then submit a pull request on GitHub (from your repository into the technigo one) for review. [Read the guide on GitHub](https://guides.github.com/activities/forking/) for more info on how to do this.
 
 ### :books: Reading List
 
@@ -94,7 +94,7 @@ Learning how to think as a web developer is learning how to be an expert in prob
 
 ### :boom: Success!
 
-After completing this assignment you should be confortable in using simple API's and know what an API is and what to use it for. You should also know how to use Javascript objects in json and how to output the data into a website. 
+After completing this assignment you should know whan an API is, and what you could use one for. You should be comfortable using simple APIs to fetch data onto your page, and you should know how to fetch the values you want from a blob of JSON.
 
 ---
 
@@ -102,12 +102,17 @@ After completing this assignment you should be confortable in using simple API's
 
 Done with the main task? Here's some ideas for things to continue with:
 
-1. Change background or background color depending on what weather or temperature it is. 
-1. Add which time the sun rise and sets. 
-1. Add so that you can choose by three different cities. 
-1. Package your site as a Chrome extension, here's how to: 
+1. Change background image or background color depending on what weather or temperature it is.
+1. Add which time the sun rise and sets.
+1. Add so that you can choose by three different cities.
 
-Chrome extensions are surprisingly simple to create. By packing the app as an extension, you’ll be able to run your todo list by clicking a button in the toolbar. All you need to do to package your app is to create a manifest, give it an icon, then install it in chrome. To create the manifest, make a new file called manifest.json in the root of the project. Within it, place this:
+### :runner: :runner: :runner: SUPER STRETCH GOAL
+
+The super stretch goal of this task is to package your site as a chrome extension.
+
+:warning: The guide below is from Tjejer Kodar in London 2015. I haven't had a chance to check if it is still correct or not. It _should_ work, but have your finger ready on the google button if this doesn't work... :warning:
+
+Chrome extensions are surprisingly simple to create. By packing the app as an extension, you’ll be able to run your weather app by clicking a button in the toolbar. All you need to do to package your app is to create a manifest, give it an icon, then install it in chrome. To create the manifest, make a new file called manifest.json in the root of the project. Within it, place this:
 
 ```
 {
@@ -121,7 +126,5 @@ Chrome extensions are surprisingly simple to create. By packing the app as an ex
   }
 }
 ```
-Next, copy this placeholder icon to the root of the project. You can replace the icon with anything you’d like.
 
-Finally, in chrome, go to Settings and then open Extensions in the sidebar. Make sure the ‘Developer mode’ checkbox is ticked, then click on the ‘Load unpacked extension’ button. Select the project folder and click ‘open’. You should now see the app in your extension list and and you should also see a new icon in Chrome! When you click the icon now, it’ll load your app in a popup. Just remember, when you make changes to your app, you may need to come back into the Chrome Extensions interface and click reload on your app.
-
+Finally, in chrome, go to Settings and then open Extensions in the sidebar. Make sure the ‘Developer mode’ checkbox is ticked, then click on the ‘Load unpacked extension’ button. Select this assignment's project folder and click ‘open’. You should now see the app in your extension list and and you should also see a new icon in Chrome! When you click the icon now, it’ll load your app in a popup. Just remember, when you make changes to your app, you may need to come back into the Chrome Extensions interface and click reload on your app.
